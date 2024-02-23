@@ -6,6 +6,8 @@
   --info_name_lg_info_color: gray;
   --product-store-background: #f8f8f8;
   --number_storage_info: #398000;
+  --product_to_basket: #a1c900;
+  --to_basket_color: white;
 }
 .product-card {
   position: relative;
@@ -31,7 +33,8 @@ img {
   width: 50%;
 }
 .product-info-name {
-  padding: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
   font-family: Arial Regular, Arial, Arial CE, Helvetica, Helvetica CE, Verdana,
     sans-serif;
 }
@@ -72,7 +75,7 @@ img {
 }
 .product-store {
   position: absolute;
-  top: 160px;
+  top: 145px;
   right: 10px;
   border-radius: 5px;
   width: 260px;
@@ -95,4 +98,17 @@ img {
 .info-shipping {
   text-decoration: underline;
   font-size: 16px;
+}
+.product-to-basket {
+  background-color: var(--product_to_basket);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.to-basket {
+  font-weight: bold;
+  color: var(--to_basket_color);
+  font-family: Roboto, Arial, Arial Regular, Arial CE, Helvetica, Helvetica CE,
+    Verdana, sans-serif;
 }
